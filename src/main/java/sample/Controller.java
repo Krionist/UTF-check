@@ -45,7 +45,7 @@ public class Controller implements Initializable {
         }
     }
     private ArrayList<String> getFileList(String folder_url){
-        ArrayList<String> file_list=new ArrayList<>();
+        ArrayList<String> file_list=new ArrayList<String>();
         File folder = new File(folder_url);
         File[] listOfFiles = folder.listFiles();
 
